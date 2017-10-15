@@ -10,9 +10,8 @@ package javafxapplication1;
  * @author RBS
  */
 public interface IClientService {
-  /* public boolean insererProduit(Client c) throws SQLException;
-    public  boolean modifierProduit(Client c) throws SQLException;
-    public  boolean supprimerProduit(Client c) throws SQLException ;
-    public  void AfficherProduits() throws SQLException;
-   */
+    public boolean ajouterclient(Client c) ;
+    public  boolean modifierclient(Client c);
+   
+   
 }
