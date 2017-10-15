@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication1.FXMLmainpageController">
+   <children>
+      <Label fx:id="welcomelabel" layoutX="265.0" layoutY="93.0" text="label" />
+      <Button fx:id="deconnection" layoutX="438.0" layoutY="318.0" mnemonicParsing="false" onAction="#handledeconnectionAction" text="deconnexion" />
+   </children>
+</AnchorPane>
